@@ -1,0 +1,75 @@
+/* 
+    Document   : main.css
+    Created on : 20-ago-2010, 22:06:16
+    Author     : axel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    background-color: white;
+    font-family:'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size:13px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    margin: 0;
+}
+
+#content {
+}
+
+#header {
+    height:45px;
+    text-align:center;
+    font-size:24px;
+    color:#494949;
+    text-shadow:0 1px 0 #FFFFFF;
+    background-color: #EFEFEF;
+    background-image: -moz-linear-gradient(top, #AEAEAE, #EFEFEF);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #AEAEAE),color-stop(1, #EFEFEF));
+    line-height: 45px;
+    border-bottom: black 1px solid;
+}
+
+.data {
+    border:1px solid #DDDDDD;
+    width:790px;
+    border-collapse:collapse;
+    border-spacing:0;
+    margin: 10px auto;
+}
+
+table.data thead th {
+    background:#EEEEEE;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #E9E9E9),color-stop(1, #FEFFFE));
+
+    border-bottom:1px solid #DDDDDD;
+    text-shadow:0 1px 0 #FFFFFF;
+}
+
+
+table.data th, table.data td {
+    padding:5px 10px;
+}
+
+table.data tr:hover {
+    background-color: #1263D0;
+    color: white;
+    cursor: pointer;
+}
+
+table.data tr:nth-child(2n) {
+    background-color: #E7F0FE;
+}
+
+th, td, caption {
+    font-weight:normal;
+    text-align:left;
+    vertical-align:top;
+}
