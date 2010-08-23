@@ -15,7 +15,12 @@ and open the template in the editor.
         </div>
 
         <div id="content">
-            <div id="series">
+            <div id="series" class="tableContainer">
+                <form>
+                    <input id="searchText" type="text" placeholder="Buscar serie" required/>
+                    
+                    <div class="button">Buscar</div>
+                </form>
                 <table id="tableSeries" class="data">
                     <thead>
                         <tr>
@@ -26,12 +31,13 @@ and open the template in the editor.
                     </thead>
                     <tbody>
                         <tr><td>hola</td></tr>
-                        <tr><td>adios</td><tr>
+                        <tr><td>adios</td></tr>
                     </tbody>
                 </table>
             </div>
-            <div id="capitulos">
-                <a id="atrasCapitulos">Atrás</a>
+            <div id="capitulos" class="tableContainer">
+                <div class="button">Series</div>
+                <div class="titulo">Nombre serie</div>
                 <table id="tableCapitulos" class="data">
                     <thead>
                         <tr>
@@ -43,8 +49,9 @@ and open the template in the editor.
                 </table>
             </div>
 
-            <div id="mirrors">
-                <a id="atrasMirrors">Atrás</a>
+            <div id="mirrors" class="tableContainer">
+                <div class="button">Capítulos</div>
+                <div class="titulo">Nombre capitulo</div>
                 <table id="tableMirrors" class="data">
                     <thead>
                         <tr>
